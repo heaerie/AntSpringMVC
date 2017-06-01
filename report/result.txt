@@ -1,0 +1,23 @@
+Testsuite: com.mkyong.test.TestMessage
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+
+	Caused an ERROR
+junit/framework/JUnit4TestAdapterCache
+java.lang.NoClassDefFoundError: junit/framework/JUnit4TestAdapterCache
+	at java.lang.ClassLoader.defineClass1(java.base@9-internal/Native Method)
+	at java.lang.ClassLoader.defineClass(java.base@9-internal/ClassLoader.java:939)
+	at java.security.SecureClassLoader.defineClass(java.base@9-internal/SecureClassLoader.java:152)
+	at java.net.URLClassLoader.defineClass(java.base@9-internal/URLClassLoader.java:463)
+	at java.net.URLClassLoader.access$100(java.base@9-internal/URLClassLoader.java:76)
+	at java.net.URLClassLoader$1.run(java.base@9-internal/URLClassLoader.java:371)
+	at java.net.URLClassLoader$1.run(java.base@9-internal/URLClassLoader.java:365)
+	at java.security.AccessController.doPrivileged(java.base@9-internal/Native Method)
+	at java.net.URLClassLoader.findClass(java.base@9-internal/URLClassLoader.java:364)
+	at java.lang.ClassLoader.loadClass(java.base@9-internal/ClassLoader.java:486)
+	at java.lang.ClassLoader.loadClass(java.base@9-internal/ClassLoader.java:419)
+	at java.lang.Class.forName0(java.base@9-internal/Native Method)
+	at java.lang.Class.forName(java.base@9-internal/Class.java:294)
+	at java.net.URLClassLoader.findClass(java.base@9-internal/URLClassLoader.java:384)
+	at java.lang.ClassLoader.loadClass(java.base@9-internal/ClassLoader.java:486)
+	at java.lang.ClassLoader.loadClass(java.base@9-internal/ClassLoader.java:419)
+
